@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Hello Jenkins, pliss supportnya semester 5 yaaa') {
+            steps {
+                echo 'My Jenkins Pipeline succes'
+            }
+        }
+    }
+}
